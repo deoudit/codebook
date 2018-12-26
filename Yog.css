@@ -1,0 +1,198 @@
+header {
+    height: 100px;
+    width: 100%;
+    background-color:red;
+    margin: 0 0 30px 0;
+    padding: 30px 0 0 0;
+}
+#wrapper {
+    width: 940px;
+    margin: 0 auto;
+}
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'lucida grande', 'Segoe UI', arial, verdana, 'lucida sans unicode', tahoma, sans-serif;
+}
+.title h1 {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin: 1px 20px;
+    color: #fff;
+    letter-spacing: .1em;
+    opacity: .6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+:before,
+:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    background-color: dodgerblue;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.title {
+    font-size: 1.5em;
+    position: relative;
+    margin: 0 auto 1em;
+    padding: 1em 1em .25em 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.title:after {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 240px;
+    height: 4px;
+    margin-left: -120px;
+    content: '';
+    background-color: #fff;
+}
+
+/* Clip text element */
+.clip-text {
+    font-size: 6em;
+    font-weight: bold;
+    line-height: 1;
+    position: relative;
+    display: inline-block;
+    margin: .25em;
+    padding: .5em .75em;
+    text-align: center;
+    /* Color fallback */
+    color: #fff;
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+
+.clip-text:before,
+.clip-text:after {
+    position: absolute;
+    content: '';
+}
+
+/* Background */
+.clip-text:before {
+    z-index: -2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: inherit;
+}
+
+/* Text Background (black zone) */
+.clip-text:after {
+    position: absolute;
+    z-index: -1;
+    top: .125em;
+    right: .125em;
+    bottom: .125em;
+    left: .125em;
+    background-color: #000;
+}
+
+/* Change the background position to display letter when the black zone isn't here */
+.clip-text--no-textzone:before {
+    background-position: -.65em 0;
+}
+
+.clip-text--no-textzone:after {
+    content: none;
+}
+
+/* Use Background-size cover for photo background and no-repeat background */
+.clip-text--cover,
+.clip-text--cover:before {
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+/* Background image from http://thepatternlibrary.com/ and http://lorempixel.com */
+.clip-text_one {
+    background-image: url(http://hd.wallpaperswide.com/thumbs/simple_abstract_painting-t2.jpg);
+}
+
+.clip-text_two {
+    background-image: url(http://wallpaper-gallery.net/images/black-abstract-wallpaper/black-abstract-wallpaper-4.jpg);
+}
+
+.clip-text_tree {
+    background-image: url(http://hd.wallpaperswide.com/thumbs/fomef___colormixing_5k-t2.jpg);
+}
+
+.clip-text_four {
+    background-image: url(http://hd.wallpaperswide.com/thumbs/abstract_black_design_2-t2.jpg);
+}
+
+.clip-text_five {
+    background-image: url(http://hd.wallpaperswide.com/thumbs/super_nova-t2.jpg);
+}
+
+.clip-text_six {
+    background-image: url(https://www.hdwallpapers.net/previews/3d-colorful-spiral-1057.jpg);
+}
+
+.clip-text_seven {
+    background-image: url(http://cdn8.staztic.com/app/a/6278/6278761/hd-abstract-wallpapers-1-0-s-307x512.jpg);
+}
+
+.clip-text_eight {
+    background-image: url(http://lorempixel.com/410/200/people);
+}
+
+.clip-text_nine {
+    background-image: url(https://wallpaperbrowse.com/media/images/background-pictures-10.jpg);
+}
+
+.clip-text_ten {
+    background-image: url(http://lorempixel.com/480/200/nightlife/8);
+}
+
+.clip-text_eleven {
+    background-image: url(http://www.wallcoo.net/cartoon/abstract_rainbow_colours_13_1920x1200/images/Abstract_Rainbow_colour_pattern_4116.jpg);
+    background-size: cover;
+}
+
+.clip-text_twelve {
+    background-image: url(http://hd.wallpaperswide.com/thumbs/abstract_wallpaper_for_mac-t2.jpg);
+}
+
+.clip-text_thirteen {
+    background-image: url(https://picsum.photos/200/300/?random);
+}
+
+.clip-text_fourteen {
+    background-image: url(http://hd.wallpaperswide.com/thumbs/awesome_colorful_paint_3d-t2.jpg);
+}
+
+.clip-text_fifteen {
+    background-image: url(http://lorempixel.com/480/200/nightlife/5);
+}
